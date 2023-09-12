@@ -1,6 +1,10 @@
 // common components
 import TextBtn from "./common/TextBtn";
 import ImageBtn from "./common/ImageBtn";
+import Footer from "./common/Footer";
+import LinkBtn from "./common/LinkBtn";
+
+// header components
 import HorizontalNav from "./header/HorizontalNav";
 import NavButton from "./header/NavButton";
 
@@ -8,4 +12,17 @@ import NavButton from "./header/NavButton";
 import HomeHeader from "./Home/HomeHeader";
 import HomeBody from "./Home/HomeBody";
 
-export { ImageBtn, TextBtn, HorizontalNav, NavButton, HomeHeader, HomeBody };
+// Pathavali components
+import PathavaliBody from "./Pathavali/PathavaliBody";
+
+export {
+  ImageBtn,
+  TextBtn,
+  LinkBtn,
+  HorizontalNav,
+  NavButton,
+  HomeHeader,
+  HomeBody,
+  Footer,
+  PathavaliBody
+};

@@ -1,9 +1,9 @@
 import { Stack } from "expo-router";
-import { View, Text, SafeAreaView, ScrollView } from "react-native";
+import { SafeAreaView, ScrollView } from "react-native";
 import React from "react";
-import { HorizontalNav, HomeHeader, HomeBody } from "../components";
 
-import { COLORS, SIZES } from "../constants";
+import { HorizontalNav, HomeHeader, HomeBody, Footer } from "../components";
+import { COLORS } from "../constants";
 
 export default function Home() {
   return (
@@ -14,11 +14,12 @@ export default function Home() {
         style={{
           flex: 1,
           backgroundColor: COLORS.white0,
-          padding: SIZES.medium,
         }}
+        showsVerticalScrollIndicator={false}
       >
         <HomeHeader />
         <HomeBody />
+        <Footer />
       </ScrollView>
     </SafeAreaView>
   );

@@ -31,21 +31,18 @@ const SHADOWS = {
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.5,
     shadowRadius: 2,
-    elevation: 2, // For Android
   },
   medium: {
-    shadowColor: "rgba(0, 0, 0, 0.3)",
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.6,
-    shadowRadius: 4,
-    elevation: 4, // For Android
+    shadowOffset: { width: -2, height: 4 },
+    shadowColor: "#171717",
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
   },
   large: {
     shadowColor: "rgba(0, 0, 0, 0.4)",
     shadowOffset: { width: 0, height: 6 },
     shadowOpacity: 0.7,
     shadowRadius: 6,
-    elevation: 6, // For Android
   },
 };
 

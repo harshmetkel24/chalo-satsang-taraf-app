@@ -1,15 +1,27 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { SafeAreaView, ScrollView } from "react-native";
+import { Stack } from "expo-router";
+import React from "react";
 
-import {HorizontalNav} from '../components'
+import { Footer, HorizontalNav, PathavaliBody } from "../components";
+import { COLORS } from "../constants";
 
 const Pathavali = () => {
   return (
-    <View>
+    <SafeAreaView style={{ flex: 1 }}>
+      <Stack.Screen />
       <HorizontalNav />
-      <Text>Pathavali</Text>
-    </View>
-  )
-}
+      <ScrollView
+        style={{
+          flex: 1,
+          backgroundColor: COLORS.white0,
+        }}
+        showsVerticalScrollIndicator={false}
+      >
+        <PathavaliBody />
+        <Footer />
+      </ScrollView>
+    </SafeAreaView>
+  );
+};
 
-export default Pathavali
+export default Pathavali;
