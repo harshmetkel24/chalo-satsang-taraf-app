@@ -7,6 +7,7 @@ import paths from "../assets/icons/paths.png";
 import home from "../assets/icons/home.png";
 import community from "../assets/icons/community.png";
 import copyright from "../assets/icons/copyright.png";
+import playBtn from "../assets/icons/play-btn.png";
 
 export default {
   notification,
@@ -17,5 +18,6 @@ export default {
   paths,
   home,
   community,
-  copyright
+  copyright,
+  playBtn,
 };

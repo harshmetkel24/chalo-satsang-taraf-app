@@ -14,6 +14,7 @@ import HomeBody from "./Home/HomeBody";
 
 // Pathavali components
 import PathavaliBody from "./Pathavali/PathavaliBody";
+import PathLists from "./Pathavali/PathLists";
 
 export {
   ImageBtn,
@@ -24,5 +25,6 @@ export {
   HomeHeader,
   HomeBody,
   Footer,
-  PathavaliBody
+  PathavaliBody,
+  PathLists,
 };

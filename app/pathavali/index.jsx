@@ -1,9 +1,9 @@
-import { SafeAreaView, ScrollView } from "react-native";
+import { SafeAreaView, ScrollView, View } from "react-native";
 import { Stack } from "expo-router";
 import React from "react";
 
-import { Footer, HorizontalNav, PathavaliBody } from "../components";
-import { COLORS } from "../constants";
+import { Footer, HorizontalNav, PathavaliBody } from "../../components";
+import { COLORS } from "../../constants";
 
 const Pathavali = () => {
   return (
@@ -17,7 +17,9 @@ const Pathavali = () => {
         }}
         showsVerticalScrollIndicator={false}
       >
-        <PathavaliBody />
+        <View>
+          <PathavaliBody />
+        </View>
         <Footer />
       </ScrollView>
     </SafeAreaView>
